@@ -93,7 +93,7 @@ const MessageBubble = styled(Box)<{ isUser: boolean }>(({ theme, isUser }) => ({
     borderTopColor: isUser ? colors.primary.main : theme.palette.background.default,
     borderBottom: 0,
     marginBottom: -8,
-    transform: isUser ? 'rotate(270deg) translateX(20%)' : 'none',
+    transform: isUser ? 'rotate(270deg) translateX(20%)' : 'rotate(90deg)',
   },
 }));
 

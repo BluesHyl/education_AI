@@ -69,9 +69,8 @@ export class AIService {
    * @returns AI回复
    */
   public async generateCommunicationResponse(
-    message: string,
-    onChunk?: (chunk: string) => void
-  ): Promise<void> {
+    message: string
+  ): Promise<string> {
     const messages: AIMessage[] = [
       {
         role: 'system',
