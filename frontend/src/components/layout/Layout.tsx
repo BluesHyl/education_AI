@@ -229,6 +229,7 @@ const Layout = () => {
           '& .MuiDrawer-paper': {
             width: drawerWidth,
             boxSizing: 'border-box',
+            zIndex: 0
           },
         }}
         variant="persistent"

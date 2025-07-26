@@ -517,6 +517,8 @@ const MaterialGenerator = () => {
         autoHideDuration={3000}
         onClose={handleSnackbarClose}
         message={snackbarMessage}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
+        sx={{ '& .MuiSnackbar-root': { zIndex: 1400 } }}
       />
     </Container>
   );

@@ -42,7 +42,7 @@ const Layout = () => {
   };
 
   return (
-    <Box sx={{ display: 'flex', height: '100vh', overflow: 'hidden' }}>
+    <Box sx={{ display: 'flex', height: '100vh' }}>
       <CssBaseline />
       <Header open={open} drawerWidth={drawerWidth} onDrawerToggle={handleDrawerToggle} />
       <Sidebar open={open} drawerWidth={drawerWidth} onDrawerToggle={handleDrawerToggle} />
