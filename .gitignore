@@ -1,0 +1,198 @@
+# 编译输出
+/dist
+/node_modules
+/build
+
+# 日志文件
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 覆盖率目录
+/coverage
+/.nyc_output
+
+# 依赖目录
+node_modules/
+jspm_packages/
+
+# TypeScript 缓存
+*.tsbuildinfo
+
+# 可选的 npm 缓存目录
+.npm
+
+# 可选的 eslint 缓存
+.eslintcache
+
+# 可选的 REPL 历史
+.node_repl_history
+
+# 输出的 npm 包
+*.tgz
+
+# Yarn 完整性文件
+.yarn-integrity
+
+# 环境变量文件
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# parcel-bundler 缓存
+.cache
+.parcel-cache
+
+# Next.js 构建输出
+.next
+
+# Nuxt.js 构建/生成输出
+.nuxt
+dist
+
+# Gatsby 文件
+.cache/
+public
+
+# Storybook 构建输出
+.out
+.storybook-out
+
+# 临时文件夹
+.tmp
+.temp
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 诊断报告
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 目录用于仪器化的库
+lib-cov
+
+# nyc 测试覆盖率
+.nyc_output
+
+# Grunt 中间存储
+.grunt
+
+# Bower 依赖目录
+bower_components
+
+# node-waf 配置
+.lock-wscript
+
+# 编译的二进制插件
+build/Release
+
+# 依赖目录
+node_modules/
+jspm_packages/
+
+# TypeScript v1 声明文件
+typings/
+
+# 可选的 npm 缓存目录
+.npm
+
+# 可选的 eslint 缓存
+.eslintcache
+
+# 可选的 REPL 历史
+.node_repl_history
+
+# 输出的 npm 包
+*.tgz
+
+# Yarn 完整性文件
+.yarn-integrity
+
+# dotenv 环境变量文件
+.env
+.env.test
+
+# parcel-bundler 缓存
+.cache
+.parcel-cache
+
+# next.js 构建输出
+.next
+
+# nuxt.js 构建输出
+.nuxt
+
+# rollup.js 默认构建输出
+dist/
+
+# Uncomment the public line if your project uses Gatsby
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# Storybook 构建输出
+.out
+.storybook-out
+
+# 临时文件夹
+.tmp
+
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# 上传文件
+uploads/
+public/uploads/
+
+# PM2
+.pm2
+
+# Docker
+.dockerignore
+
+# 测试
+/test-results/
+/playwright-report/
+/playwright/.cache/
